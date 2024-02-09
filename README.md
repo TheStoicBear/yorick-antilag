@@ -13,6 +13,9 @@
         }
     },
 ```
+# Below is the image right click it and save file as `pop_tune`
+
+![pop_tune](https://github.com/TheStoicBear/yorick-antilag/assets/112611821/326346a7-3ebb-4067-8f2e-3652ce821fe8)
 
 
 This script enables antilag and "twostep" functionality in your FiveM server. <br>
