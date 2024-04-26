@@ -29,7 +29,7 @@ Citizen.CreateThread(function()
             local player = PlayerPedId()
             local veh = GetVehiclePedIsIn(player, false)
 
-            local itemExists = exports.ox_inventory:Search('count', 'pop_tune')
+            local itemExists = exports['qs-inventory']:Search('pop_tune')
 
             if itemExists > 0 and IsPedInAnyVehicle(player, false) then
                 ApplyAntiLagEffects(veh)
